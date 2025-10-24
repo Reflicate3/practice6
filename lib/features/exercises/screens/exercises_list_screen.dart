@@ -28,7 +28,6 @@ class ExercisesListScreen extends StatelessWidget {
   final VoidCallback onOpenFavorites;
   final VoidCallback onOpenAbout;
 
-  /// NEW: переход к экрану Галереи
   final VoidCallback onOpenGallery;
 
   const ExercisesListScreen({

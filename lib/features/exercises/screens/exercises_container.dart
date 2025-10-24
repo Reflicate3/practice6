@@ -80,7 +80,6 @@ class _ExercisesContainerState extends State<ExercisesContainer> {
     );
   }
 
-  // NEW: переход в Галерею
   void _openGallery() {
     Navigator.of(context).push(
       MaterialPageRoute(builder: (_) => const GalleryScreen()),
@@ -158,8 +157,9 @@ class _ExercisesContainerState extends State<ExercisesContainer> {
         onToggleFilters: () => setState(() => _filtersExpanded = !_filtersExpanded),
         onOpenFavorites: _openFavorites,
         onOpenAbout: _openAbout,
-        // NEW:
+
         onOpenGallery: _openGallery,
+
       ),
     );
   }
